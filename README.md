@@ -29,7 +29,7 @@ https://qiita.com/Kazutake/items/a069f86d21ca43b6c153
 
 make_dist.bat を実行すると、以下の処理が行われます。
 1. 全ソースコードがコンパイルされ、 *.obj, *.mod ファイルを作成します。
-2. 1. でできた *.obj, *.mod ファイルを dist フィルダにコピーします。
+2. 上の処理でできた *.obj, *.mod ファイルを dist フィルダにコピーします。
 3. 共有したいソースである func_public.f90 を dist フォルダにコピーします。
 
 ## 手順2: ファイルの共有
@@ -46,7 +46,7 @@ make_dist.bat を実行すると、以下の処理が行われます。
 1. func_public.f90 の中の関数 do_something の中身を改変します。**関数の名前や引数の型を変えることはできません**。
 2. build.bat を実行します。
 
-上記を実行すると、share_test.ext ができます。
+上記を実行すると、share_test.ext ができ、実行できるようになります。
 
 # まとめ
 
